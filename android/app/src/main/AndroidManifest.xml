@@ -4,8 +4,9 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="Voice_E-commerce"
-        android:icon="@mipmap/ic_launcher">
+       android:name="io.flutter.app.FlutterApplication"
+        android:label="Voice-E-commerce"
+       android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
